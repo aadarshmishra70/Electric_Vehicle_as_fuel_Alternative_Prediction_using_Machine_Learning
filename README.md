@@ -1,15 +1,1 @@
-# Introduction 
-
-In this project, we explores the question of whether
-EVs can be considered a viable replacement for traditional
-cars that rely on fossil fuels. Looking at EV performance and
-energy efficiency, machine learning models such as Random
-Forest, Gradient Boosting and Multi-Layer Perceptron (MLP)
-etc. we will be implementing these models in this paper. The
-customer expectations of EVs were analyzed using a dataset from
-Washington State. Precision and F1-score metrics were used to
-compare the models. We are also going to find out the best
-performing algorithms from Machine Learninig Models. This
-paper demonstrates that EVs have a good chance of becoming
-a popular eco-friendly substitute, which is further supported by
-robust forecasting models and effective energy control policies.
+This CSE427 project report evaluates whether electric vehicles (EVs) can serve as viable, eco-friendly alternatives to traditional fossil-fuel cars by applying nine machine learning algorithms—including Logistic Regression, Decision Trees, K-Nearest Neighbors, Random Forest, AdaBoost, Gradient Boosting, Support Vector Machines (SVM), and Multi-Layer Perceptrons (MLP)—to a dataset of 134,474 instances focused on Washington State. After extensive data preprocessing, feature engineering (such as calculating Haversine distances), handling missing battery range values separately for BEV and PHEV models, and reducing dimensions via Principal Component Analysis (PCA), the authors trained and evaluated the models using macro F1-scores as the primary metric for the imbalanced multi-class dataset. The results demonstrate that the Multi-Layer Perceptron (MLP) and Random Forest models achieved the highest overall performance with macro F1-scores of 98% and 97% respectively, whereas Gaussian Naive Bayes performed the worst due to feature dependencies. While the study is limited by high percentages of missing data and a geographically restricted scope, it concludes that machine learning and data-driven modeling can effectively guide car manufacturers, policy-makers, and engineers in deploying sustainable EV technologies.
